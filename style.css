@@ -681,15 +681,6 @@ a:active {
 	z-index: 1;
 }
 
-.banner-bar {
-	position: fixed;
-	top: 54px;
-	width: 100%;
-	height: 86px;
-	background: #000;
-	opacity: .64;
-}
-
 .custom-background {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -757,7 +748,7 @@ a:active {
 }
 
 .text-block-5 {
-	margin: 63% 0 0 3.9%;
+	margin: 63% 0 15% 3.9%;
 }
 
 .image-header-5 {
@@ -768,7 +759,110 @@ a:active {
 	background: rgb(88,89,91);
 	background: rgba(0,0,0,.64);
 	width: 100%;
-	margin: 15% 0 0 0;
+	margin: 0;
+}
+/*--------------------------------------------------------------
+*** Cabin posts
+--------------------------------------------------------------*/
+.content-area {
+	width: 100%;
+	margin: 140px 0 61px;
+	background: #fff;
+}
+
+.site-main {
+	width: 960px;
+	margin: 0 auto;
+	padding: 35px;
+	overflow: hidden;
+}
+
+.cabin-images,
+.cabin-text {
+	float: left;
+}
+
+.cabin-images {
+	margin-right: 50px;
+	width: 510px;
+}
+
+.thumbnail-image {
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin: 10px 0 0 15px;
+}
+
+.cabin-text {
+	width: 330px;
+	font-size: .88em;
+	line-height: 1.3;
+}
+
+.post-title {
+	font: 400 1.3em Arvo, serif;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+}
+
+.post-title span {
+	font-weight: 700;
+}
+
+.post-description,
+.art-features,
+.standard-features,
+.pricing {
+	margin: 0 0 15px;
+}
+
+.features-heading {
+	font-weight: bold;
+}
+
+.features-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.pricing p {
+	margin: 0;
+}
+
+.pricing p:first-child {
+	font-weight: bold;
+}
+
+.cabin-text a:link,
+.cabin-text a:hover,
+.cabin-text a:visited,
+.cabin-text a:focus,
+.cabin-text a:active {
+	text-decoration: none;
+	color: #4e9205;
+	font-weight: bold;
+}
+
+.pricing p span {
+	font-weight: bold;
+}
+
+button.availability {
+	width: 145px;
+	color: #fff;
+	background: #56792f;
+	box-shadow: none;
+	border: 0;
+	border-radius: 0;
+	text-shadow: none;
+	padding: 10px;
+	font-size: 1em;
+}
+
+button.availability:hover {
+	background: #212f12;
 }
 
 /*--------------------------------------------------------------
